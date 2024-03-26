@@ -1,0 +1,316 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+/* ---------- Main Home ---------- */
+.main-home {
+    background-color: rgba(255, 200, 141, 0.251);
+}
+
+.main-home .main-home-contain .infor {
+    background-color: rgba(246, 153, 53, 0.597);
+}
+
+.main-home .main-home-contain .infor-contain {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-home .main-home-contain .left {
+    display: flex;
+    width: 40%;
+}
+
+.main-home .main-home-contain .right {
+    width: 40%;
+}
+
+.main-home .main-home-contain .right .right-contain {
+    display: flex;
+    float: right;
+    line-height: 100px;
+}
+
+.main-home .main-home-contain .right .right-contain .search,
+.main-home .main-home-contain .right .right-contain a {
+
+    padding: 0 10px 0 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.main-home .main-home-contain .right .right-contain .search {
+    width: 250px;
+}
+
+.main-home .main-home-contain .right .right-contain .search input {
+    width: 100%;
+    padding: 10px 5px;
+    border: 1px solid rgb(92, 92, 92);
+    border-radius: 5px;
+
+}
+
+.main-home .main-home-contain .left .logo {
+    width: 20%;
+    margin-right: 15px;
+}
+
+.main-home .main-home-contain .left .logo img {
+    width: 100%;
+}
+
+.main-home .main-home-contain .left .contact {
+    line-height: 100px;
+}
+
+.main-home .main-home-contain .left .contact a {
+    padding: 0 10px 0 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.main-menu {
+    width: 40%;
+    margin: auto;
+
+}
+
+.main-menu ul.menu {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.main-menu ul.menu li {
+    padding: 20px 35px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+    /* transition: 0.4s; */
+}
+
+.main-menu ul.menu li:hover {
+    cursor: pointer;
+    background-color: rgba(246, 153, 53, 0.597);
+}
+
+.main-menu ul.menu li.home {
+    position: relative;
+}
+
+.main-menu .dropdown ul.drop {
+    list-style: none;
+    padding: 0;
+    background-color: rgb(255, 226, 194);
+}
+
+.main-menu ul.menu li.home .dropdown {
+    position: absolute;
+    top: 60px;
+    left: 0px;
+    width: 200px;
+    z-index: 10;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.6s;
+}
+
+
+.main-menu ul.menu li:hover .dropdown {
+    opacity: 1;
+    visibility: visible;
+}
+
+.main-home .bestseller-slide {
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+
+.main-home .bestseller-slide img {
+    width: 100%;
+}
+
+.main-home .bestseller-slide::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.337);
+    z-index: 0;
+}
+
+.main-home .bestseller-slide .img-detail {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%);
+
+}
+
+.main-home .bestseller-slide .img-detail p {
+    color: white;
+    font-size: 30px;
+}
+
+.main-home .bestseller-slide .img-detail p.button {
+    font-size: 20px;
+    width: 25%;
+    margin: auto;
+    padding: 15px 5px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: rgb(246, 153, 53);
+    transition: 0.4s;
+}
+
+.main-home .bestseller-slide .img-detail h1 {
+    color: white;
+    font-size: 100px;
+    margin: 0 0 20px 0;
+}
+
+.main-home .bestseller-slide .img-detail p.button:hover {
+    cursor: pointer;
+    background-color: rgb(255, 216, 175);
+}
+
+
+
+/*---------- Banner ----------*/
+.main-home .banner {
+    margin: 50px 0;
+    padding: 50px 0;
+    background-color: white;
+}
+.main-home .banner .banner-container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.main-home .banner .banner-container .banner-title {
+    width: 50%;
+    padding-right: 20px;
+    margin-top: 7%;
+}
+.main-home .banner .banner-container .banner-img {
+    width: 50%;
+}
+.main-home .banner .banner-container .banner-img img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* ---------- Category ---------- */
+.main-home .category {
+    width: 100%;
+    margin: 50px 0;
+    overflow: hidden;
+}
+.main-home .category .category-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.main-home .category .category-container {
+    width: 100%;
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    transform: scale(1.3);
+}
+.main-home .category .category-container .img-container {
+    width: 24.5%;
+}
+.main-home .category .category-container .img-container img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+/* ---------- Trending List ---------- */
+.main-home .trending-list {
+    margin: 50px 0;
+    padding: 50px 0;
+    background-color: white;
+}
+
+.main-home .trending-list .trending-list-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.main-home .trending-list p.button {
+    text-align: center;
+    margin-top: 40px;
+}
+.main-home .trending-list .trending-list-container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.main-home .trending-list .trending-list-container .img-container {
+    width: 24%;
+    text-align: center;
+}
+.main-home .trending-list .trending-list-container .img-container img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+
+/* ---------- Blog&News ---------- */
+.main-home .blog-news {
+    margin: 50px 0;
+    padding: 50px 0;
+}
+.main-home .blog-news .blog-news-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.main-home .blog-news .blog-news-container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.main-home .blog-news .blog-news-container .img-container {
+    width: 32%;
+}
+.main-home .blog-news .blog-news-container .img-container img {
+    width: 100%;
+    border-radius: 5px;
+}
+.main-home .blog-news p.button {
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+
+/* ---------- Footer ---------- */
+.footer {
+    width: 100%;
+    padding-bottom: 50px;
+}
+.footer .footer-container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footer .footer-container .col {
+    width: 24%;
+}

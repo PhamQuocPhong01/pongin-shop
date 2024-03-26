@@ -1,0 +1,204 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+/* ---------- Main Home ---------- */
+.main-home {
+    background-color: #ffc88d1e;
+    
+    /* background-color: rgba(255, 200, 141, 0.118); */
+}
+
+.main-home .main-home-contain .infor {
+    background-color: rgba(246, 153, 53, 0.597);
+}
+
+.main-home .main-home-contain .infor-contain {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-home .main-home-contain .left {
+    display: flex;
+    width: 40%;
+}
+
+.main-home .main-home-contain .right {
+    width: 40%;
+}
+
+.main-home .main-home-contain .right .right-contain {
+    display: flex;
+    float: right;
+    line-height: 100px;
+}
+
+.main-home .main-home-contain .right .right-contain .search,
+.main-home .main-home-contain .right .right-contain a {
+
+    padding: 0 10px 0 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.main-home .main-home-contain .right .right-contain .search {
+    width: 250px;
+}
+
+.main-home .main-home-contain .right .right-contain .search input {
+    width: 100%;
+    padding: 10px 5px;
+    border: 1px solid rgb(92, 92, 92);
+    border-radius: 5px;
+
+}
+
+.main-home .main-home-contain .left .logo {
+    width: 20%;
+    margin-right: 15px;
+}
+
+.main-home .main-home-contain .left .logo img {
+    width: 100%;
+}
+
+.main-home .main-home-contain .left .contact {
+    line-height: 100px;
+}
+
+.main-home .main-home-contain .left .contact a {
+    padding: 0 10px 0 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.main-menu {
+    width: 40%;
+    margin: auto;
+
+}
+
+.main-menu ul.menu {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.main-menu ul.menu li {
+    padding: 20px 35px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+    /* transition: 0.4s; */
+}
+
+.main-menu ul.menu li:hover {
+    cursor: pointer;
+    background-color: rgba(246, 153, 53, 0.597);
+}
+
+.main-menu ul.menu li.home {
+    position: relative;
+}
+
+.main-menu .dropdown ul.drop {
+    list-style: none;
+    padding: 0;
+    background-color: rgb(255, 226, 194);
+}
+
+.main-menu ul.menu li.home .dropdown {
+    position: absolute;
+    top: 60px;
+    left: 0px;
+    width: 200px;
+    z-index: 10;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.6s;
+}
+
+
+.main-menu ul.menu li:hover .dropdown {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+/* ---------- Collections ---------- */
+.main-collections {
+    width: 80%;
+    margin: auto;
+}
+.main-collections .main-collections-container {
+    margin: 30px 0;
+    display: flex;
+    justify-content: space-between;
+}
+/* .main-filters .main-filters-container    */
+
+.main-collections .main-collections-container .main-filters {
+    width: 25%;
+}
+
+.main-collections .main-collections-container .main-products {
+    width: 74%;
+}
+
+.main-collections .main-products .products-sale .container {
+    width: 100%;
+}
+.main-collections .main-products .products-sale .container img {
+    width: 100%
+}
+
+.main-collections .main-collections-container .main-filters .category span {
+    color: rgb(118, 118, 118);
+}
+
+.bottom-line {
+    margin-right: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.288);
+}
+
+
+.main-collections .main-products .product-collection .product-collection-container {
+   display: flex;
+   justify-content: space-between; 
+   flex-wrap: wrap;
+}
+.main-collections .main-products .product-collection .single-product {
+    width: 32%;
+    padding: 20px 0;
+}
+
+.main-collections .main-products .product-collection .single-product img {
+    width: 100%;
+}
+
+
+
+
+
+/* ---------- Footer ---------- */
+.footer {
+    width: 100%;
+    padding-bottom: 50px;
+    background-color: white;
+}
+.footer .footer-container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footer .footer-container .col {
+    width: 24%;
+}
