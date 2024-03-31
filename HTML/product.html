@@ -42,22 +42,33 @@
                 <div class="main-menu-content">
                     <ul class="menu">
                         <li class="home list-menu">
-                            HOME
+                            <a href="">HOME</a>
                             <div class="dropdown">
                                 <ul class="drop">
                                     <li class="items">Lorem, ipsum dolor.</li>
                                     <li class="items">Lorem, ipsum dolor ipsum.</li>
                                     <li class="items">Lorem, ipsum dolor.</li>
-                                    <li class="items">Lorem,  dolor.</li>
+                                    <li class="items">Lorem, dolor.</li>
                                     <li class="items">Lorem, ipsum dolor ipsum.</li>
                                     <li class="items">ipsum dolor.</li>
                                 </ul>
                             </div>
                         </li>
-                        <li class=" list-menu">COLLECTION</li>
-                        <li class=" list-menu">PREODUCT</li>
-                        <li class=" list-menu">BLOG</li>
-                        <li class=" list-menu">PAGES</li>
+                        <li class=" list-menu"><a href="">COLLECTION</a>
+                            <div class="dropdown">
+                                <ul class="drop">
+                                    <li class="items">Lorem, ipsum dolor.</li>
+                                    <li class="items">Lorem, ipsum dolor ipsum.</li>
+                                    <li class="items">Lorem, ipsum dolor.</li>
+                                    <li class="items">Lorem, dolor.</li>
+                                    <li class="items">Lorem, ipsum dolor ipsum.</li>
+                                    <li class="items">ipsum dolor.</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class=" list-menu"><a href="">PRODUCT</a></li>
+                        <li class=" list-menu"><a href="">BLOG</a></li>
+                        <li class=" list-menu"><a href="">PAGES</a></li>
                     </ul>
                 </div>
             </div>
@@ -66,41 +77,79 @@
                     <div class="main-filters">
                         <div class="category bottom-line">
                             <h3 class="title">Catgories</h3>
-                            <span><input type="checkbox" id="category01"> <label for="category01">Lorem ipsum dolor sit
-                                    amet.</label></span> <br>
-                            <span><input type="checkbox" id="category02"> <label for="category02">Lorem ipsum dolor sit
-                                    amet.</label></span> <br>
-                            <span><input type="checkbox" id="category03"> <label for="category03">Lorem ipsum dolor sit
-                                    amet.</label></span> <br>
-                            <span><input type="checkbox" id="category04"> <label for="category04">Lorem ipsum dolor sit
-                                    amet.</label></span> <br>
+                            <input type="checkbox" id="category01"> <label for="category01">Lorem ipsum dolor sit
+                                amet.</label><br>
+                            <input type="checkbox" id="category02"> <label for="category02">Lorem ipsum dolor sit
+                                amet.</label><br>
+                            <input type="checkbox" id="category03"> <label for="category03">Lorem ipsum dolor sit
+                                amet.</label><br>
+                            <input type="checkbox" id="category04"> <label for="category04">Lorem ipsum dolor sit
+                                amet.</label><br>
                         </div>
                         <div class="color bottom-line">
                             <h3 class="title">Color</h3>
                             <div class="selected">
-                                <p>0 selected</p>
-                                <span>reset</span>
+                                <span>0 selected</span>
+                                <a class="reset" href="">reset</a>
                             </div>
-                            <input type="checkbox" id="red">
-                            <input type="checkbox" id="black">
-                            <input type="checkbox" id="darkgray">
-                            <input type="checkbox" id="gray">
-                            <input type="checkbox" id="steelblue">
+                            <div class="color-check">
+                                <form action="" class="color-pick">
+                                    <div class="black pos-rel">
+                                        <input class="" type="checkbox" id="black"> <label class=""
+                                            for="black">black</label>
+                                    </div>
+                                    <div class="crimson pos-rel">
+                                        <input class="" type="checkbox" id="crimson"> <label class=""
+                                            for="crimson">crimson</label>
+                                    </div>
+                                    <div class="darkgray pos-rel">
+                                        <input class="" type="checkbox" id="darkgray"> <label class=""
+                                            for="darkgray">darkgray</label>
+                                    </div>
+                                    <div class="gray pos-rel">
+                                        <input class="" type="checkbox" id="gray"> <label class=""
+                                            for="gray">gray</label>
+                                    </div>
+                                    <div class="silver pos-rel">
+                                        <input class="" type="checkbox" id="silver"> <label class=""
+                                            for="silver">silver</label>
+                                    </div>
+                                    <div class="steelblue pos-rel">
+                                        <input class="" type="checkbox" id="steelblue"> <label class=""
+                                            for="steelblue">steelblue</label>
+                                    </div>
+                                    <div class="emerald pos-rel">
+                                        <input class="" type="checkbox" id="emerald"> <label class=""
+                                            for="emerald">emerald</label>
+                                    </div>
+                                </form>
+                            </div>
 
                         </div>
                         <div class="price bottom-line">
-                            <h3>Price</h3>
-                            <div class="selected">
-                                <p>0 selected</p>
-                                <span>reset</span>
-
+                            <h3 class="title">Price</h3>
+                            <div class="selected highest-price">
+                                <span>The highest price is $296.00</span>
+                                <a class="reset" href="">reset</a>
+                            </div>
+                            <div class="price-range">
+                                <div class="price-range-container">
+                                    <form action="" class="price-fill">
+                                        <div class="first-price">
+                                            <input type="number" id="from" placeholder="$" min="0" max="296"><label for="from">Form</label>
+                                        </div>
+                                        <div class="last-price">
+                                            <input type="number" id="to" placeholder="$" min="" max="296"><label for="to">To</label>
+                                        </div>
+                                    </form>
+                                </div>
                             </div>
                         </div>
-                        <div class="product-style bottom-line">
-                            <h3>Product Style</h3>
+                        <div class="availability bottom-line">
+                            <h3 class="title">Availability</h3>
                             <div class="selected">
-                                <p>0 selected</p>
-                                <span>reset</span>
+                                <span>0 selected</span>
+                                <a class="reset" href="">reset</a>
                             </div>
                             <input type="checkbox" name="" id="in-stock">
                             <label for="in-stock">in stock</label>
@@ -108,10 +157,10 @@
                             <label for="out-stock">out stock</label>
                         </div>
                         <div class="brand bottom-line">
-                            <h3>Brand</h3>
+                            <h3 class="title">Brand</h3>
                             <div class="selected">
-                                <p>0 selected</p>
-                                <span>reset</span>
+                                <span>0 selected</span>
+                                <a class="reset" href="">reset</a>
                             </div>
                         </div>
                     </div>
