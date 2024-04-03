@@ -1,0 +1,16 @@
+.footer {
+    width: 100%;
+    padding-bottom: 50px;
+    background-color: white;
+}
+
+.footer .footer-container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .footer-container .col {
+    width: 24%;
+}

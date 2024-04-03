@@ -1,0 +1,286 @@
+
+
+/* ---------- Collections ---------- */
+.main-collections {
+    width: 80%;
+    margin: auto;
+}
+
+.main-collections .main-collections-container {
+    margin: 30px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/* -------------------main-filters-------------------*/
+
+.main-collections .main-collections-container .main-filters {
+    width: 25%;
+}
+
+.main-collections .main-collections-container .main-products {
+    width: 74%;
+}
+
+.main-collections .main-products .products-sale .container {
+    width: 100%;
+}
+
+.main-collections .main-products .products-sale .container img {
+    width: 100%
+}
+
+.main-collections .main-collections-container .main-filters .category input {
+    color: var(--gray);
+    margin: 10px 0;
+}
+.main-collections .main-collections-container .main-filters .title {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.main-collections .main-collections-container .main-filters .category label {
+    color: var(--gray);
+
+}
+
+.main-collections .main-filters h3.title {
+    font-size: 16px;
+}
+
+.main-collections .main-filters a.reset {
+    color: rgb(118, 118, 118);
+    font-size: 13px;
+    transition: 0.3s;
+}
+
+.main-collections .main-filters a.reset:hover {
+    color: rgb(255, 137, 59);
+}
+
+.main-collections .main-filters .selected {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+}
+
+.main-collections .main-filters .bottom-line {
+    margin-right: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.288);
+}
+
+
+/* -------------------Color Filter------------------- */
+
+.main-collections .main-filters .color .color-check {
+    padding: 30px 0 0 0;
+}
+
+.main-collections .main-filters .color .color-check form.color-pick {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-collections .main-filters .color .color-check form.color-pick .pos-rel {
+    position: relative;
+    text-transform: uppercase;
+}
+
+.main-collections .main-filters .color .color-check form.color-pick label {
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    transform: translate(-50%);
+    background-color: rgb(60, 60, 60);
+    font-size: 13px;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.main-collections .main-filters .color .color-check input {
+    margin: 10px 11px;
+    position: relative;
+}
+
+.main-collections .main-filters .color .color-check input:before {
+    position: absolute;
+    content: "";
+    width: 25px;
+    height: 25px;
+    top: -50%;
+    left: -50%;
+    border-radius: 15px;
+    /* background-color: rgb(255, 82, 82); */
+    cursor: pointer;
+}
+
+.main-collections .main-filters .color .color-check input:after {
+    position: absolute;
+    font-family: "Font Awesome 5 Free";
+    content: "\f00c";
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+}
+
+.main-collections .main-filters .color .color-check input:hover:after {
+    opacity: 1;
+    visibility: visible;
+}
+
+.main-collections .main-filters .color .color-check .crimson input:before {
+    background-color: var(--crimson)
+}
+
+.main-collections .main-filters .color .color-check .black input:before {
+    background-color: var(--black)
+}
+
+.main-collections .main-filters .color .color-check .darkgray input:before {
+    background-color: var(--darkgray)
+}
+
+.main-collections .main-filters .color .color-check .gray input:before {
+    background-color: var(--gray)
+}
+
+.main-collections .main-filters .color .color-check .silver input:before {
+    background-color: var(--silver)
+}
+
+.main-collections .main-filters .color .color-check .steelblue input:before {
+    background-color: var(--steelblue)
+}
+
+.main-collections .main-filters .color .color-check .emerald input:before {
+    background-color: var(--emerald)
+}
+
+.main-collections .main-filters .color .color-check form.color-pick .pos-rel:hover label {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+/* -------------------Price filter------------------- */
+.main-collections .main-filters .price .price-range {
+    margin: 30px 0 20px 0;
+}
+
+.main-collections .main-filters .price .price-range form.price-fill {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main-collections .main-filters .price .price-range input {
+    width: 90px;
+    padding: 5px 3px;
+    border-radius: 3px;
+    border: var(--darkgray) solid 1px;
+    outline: none;
+}
+
+.price-range input[type=number]::-webkit-inner-spin-button,
+.price-range input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.main-collections .main-filters .price .price-range .first-price,
+.main-collections .main-filters .price .price-range .last-price {
+    position: relative;
+}
+
+.main-collections .main-filters .price .price-range form.price-fill label {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    font-size: 13px;
+    color: var(--gray);
+
+}
+
+/* ---------------------Availability--------------------- */
+.main-collections .main-filters .availability .available-check {
+    margin: 15px 0;
+}
+
+.main-collections .main-filters .availability .available-check input {
+    margin: 10px 5px;
+}
+
+.main-collections .main-filters .availability .available-check label {
+    color: var(--gray);
+}
+
+/* ---------------------Brand--------------------- */
+
+.main-collections .main-filters .brand form.brand-check {
+    margin: 15px 0;
+}
+
+.main-collections .main-filters .brand form.brand-check input {
+    color: var(--gray);
+    margin: 10px 0;
+}
+
+.main-collections .main-filters .brand form.brand-check label {
+    color: var(--gray);
+
+}
+
+/* ---------------------Main Product*--------------------- */
+
+.main-collections .main-products .product-collection .product-collection-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-collections .main-products .product-collection .single-product {
+    width: 31%;
+    padding: 20px 10px;
+}
+
+.main-collections .main-products .product-collection .single-product img {
+    width: 100%;
+}
+
+.main-collections .main-products .product-collection .single-product .product-action {
+    text-align: center;
+}
+
+.main-collections .main-products .product-collection .single-product .product-action .spacing {
+    margin-top: 10px;
+}
+
+.main-collections .main-products .product-collection .single-product .product-action a {
+    text-decoration: none;
+    color: #000000;
+    transition: 0.3s;
+}
+
+.main-collections .main-products .product-collection .single-product .product-action .product-name {
+    font-weight: bold;
+}
+
+.main-collections .main-products .product-collection .single-product .product-action a:hover {
+    color: var(--crimson);
+}
+
+
