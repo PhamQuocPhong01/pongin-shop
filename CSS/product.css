@@ -1,8 +1,90 @@
 .main-product {
-    width: 80%;
-    margin: auto;
+    
+    margin: 50px 0;
+    padding: 100px 0;
+    background-color: white;
 }
 .main-product .main-product-container {
+    width: 80%;
+    margin: auto;
     display: flex;
     justify-content: space-between;
+}
+.main-product .product-image,
+.main-product .product-detail {
+    width: 48%;
+}
+.main-product .product-image img {
+    width: 100%;
+    border: 1px solid var(--silver);
+    border-radius: 5px;
+}
+
+.main-product .product-detail {
+    padding: 0 20px;
+    /* display: table; */
+}
+/* .main-product .product-detail .product-detail-container {
+    display: table-cell;
+    vertical-align: middle;
+} */
+.main-product .product-image .second-list ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+}
+.main-product .product-image .second-list ul li {
+    width: 24%;
+}
+
+.main-product .product-detail h3 {
+    margin-top: 0;
+    font-size: 25px;
+    font-weight: 500;
+}
+.main-product .product-detail button {
+    padding: 15px 70px;
+    margin: 10px 2px;
+    font-size: 14px;
+    line-height: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+    background-color: var(--orange);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+.main-product .product-detail button.favorite {
+    padding: 15px 20px;
+}
+
+.main-product .product-detail button:hover {
+    cursor: pointer;
+    background-color: var(--darkgray);
+}
+.main-product .product-detail p {
+    margin: 25px 0;
+}
+.main-product .product-detail p.price {
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0;
+    color: var(--crimson);
+}
+.main-product .product-detail span.color,
+.main-product .product-detail p.quantity,
+.main-product .product-detail p.availability {
+    font-size: 14px;
+    font-weight: 500;
+}
+.main-product .product-detail p.quantity input {
+    width: 70px;
+    padding: 7px 3px;
+    margin-left: 10px;
+    text-align: center;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid var(--gray);
 }
