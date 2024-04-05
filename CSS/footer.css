@@ -2,6 +2,7 @@
     width: 100%;
     padding-bottom: 50px;
     background-color: white;
+    font-family: "Poppins", sans-serif;
 }
 
 .footer .footer-container {
@@ -16,9 +17,16 @@
 }
 .footer .footer-container .col img {
     width: 30%;
+    padding-top: 10px;
 }
 .footer .footer-container .col h4 {
     font-size: 16px;
     font-weight: 500;
     color: var(--orange);
+}
+.footer .footer-container .col h3 {
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--orange);
+    margin-top: 0;
 }

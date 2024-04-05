@@ -27,15 +27,14 @@
 }
 
 
-.main-home {
+
+
+.header .infor {
     background-color: #f6f6f6;
+    font-family: "Poppins", sans-serif;
 }
 
-.main-home .main-home-contain .infor {
-    background-color: #f6f6f6;
-}
-
-.main-home .main-home-contain .infor-contain {
+.header .infor-contain {
     width: 80%;
     margin: auto;
     display: flex;
@@ -43,23 +42,23 @@
     font-size: 15px;
 }
 
-.main-home .main-home-contain .left {
+.header .left {
     display: flex;
     width: 40%;
 }
 
-.main-home .main-home-contain .right {
+.header .right {
     width: 40%;
 }
 
-.main-home .main-home-contain .right .right-contain {
+.header .right .right-contain {
     display: flex;
     float: right;
     line-height: 100px;
 }
 
-.main-home .main-home-contain .right .right-contain .search,
-.main-home .main-home-contain .right .right-contain a {
+.header .right .right-contain .search,
+.header .right .right-contain a {
 
     padding: 0 10px 0 10px;
     text-decoration: none;
@@ -67,11 +66,11 @@
     transition: 0.3s;
 }
 
-.main-home .main-home-contain .right .right-contain .search {
+.header .right .right-contain .search {
     width: 250px;
 }
 
-.main-home .main-home-contain .right .right-contain .search input {
+.header .right .right-contain .search input {
     width: 100%;
     padding: 10px 5px;
     border: 1px solid rgb(92, 92, 92);
@@ -80,27 +79,27 @@
 
 }
 
-.main-home .main-home-contain .left .logo {
+.header .left .logo {
     width: 20%;
     margin-right: 15px;
 }
 
-.main-home .main-home-contain .left .logo img {
+.header .left .logo img {
     width: 100%;
 }
 
-.main-home .main-home-contain .left .contact {
+.header .left .contact {
     line-height: 100px;
 }
 
-.main-home .main-home-contain .left .contact a {
+.header .left .contact a {
     margin: 0 20px 0 20px;
     text-decoration: none;
     color: black;
     transition: 0.3s;
 }
 
-.main-home .main-home-contain .infor a:hover {
+.header .infor a:hover {
     color: var(--crimson);
 }
 
