@@ -14,3 +14,11 @@
 .footer .footer-container .col {
     width: 24%;
 }
+.footer .footer-container .col img {
+    width: 30%;
+}
+.footer .footer-container .col h4 {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--orange);
+}
