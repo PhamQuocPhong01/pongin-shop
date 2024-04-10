@@ -1,0 +1,86 @@
+.main {
+
+    background-color: #f6f6f6;
+}
+.main-cart {
+    font-family: "Poppins", sans-serif;
+    margin-top: 30px;
+    padding-top: 30px;
+    background-color: white;
+}
+.main-cart .cart-container {
+    width: 80%;
+    margin: auto;
+}
+.main-cart .cart-items {
+    width: 60%;
+}
+.main-cart .cart-items table {
+    width: 100%;
+}
+.main-cart .cart-items table th {
+    border-bottom: 1px solid var(--silver);
+}
+.main-cart .cart-items table th.total,
+.main-cart .cart-items table th.quantity {
+    width: 15%;
+}
+.main-cart .cart-items table th.product {
+    width: 70%;
+}
+.main-cart .cart-items table th {
+    padding: 10px 10px 10px 0;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: left;
+}
+.main-cart .cart-items table td {
+    padding:20px 0;
+    border-bottom: 1px solid var(--silver);
+
+}
+.main-cart .cart-items table .total {
+    text-align: right;
+}
+.main-cart .cart-items .cart-image {
+    display: flex;
+    /* justify-content: ; */
+}
+.main-cart .cart-items .cart-image img {
+    width: 110px;
+    border: 1px solid var(--silver);
+    border-radius: 5px;
+}
+.main-cart .cart-items .item-info {
+    padding-left: 15px;
+    display: table;
+}
+.main-cart .cart-items .item-info .container {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.main-cart .cart-items .quantity {
+    vertical-align: middle;
+}
+.main-cart .cart-items .quantity .container {
+    display: flex;
+    justify-content: space-between;
+}
+.main-cart .cart-items .quantity .item-delete {
+    cursor: pointer;
+}
+.main-cart .cart-items .quantity input {
+    width: 50px;
+    padding: 5px 10px;
+    text-align: center;
+    outline: none;
+    border: 1px solid var(--gray);
+    border-radius: 3px;
+}
+
+
+.main-cart .cart-action {
+    color: #f6f6f6;
+}
+

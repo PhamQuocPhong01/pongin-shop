@@ -1,0 +1,17 @@
+.main .main-wishlist {
+    padding: 100px 0;
+} 
+.main .main-wishlist .container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.main .main-wishlist h1 {
+    font-size: 30px;
+    font-weight: 500;
+}
+.main .main-wishlist a {
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}

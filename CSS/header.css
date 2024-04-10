@@ -9,6 +9,11 @@
     --orange: rgb(255, 114, 59);
 }
 
+.main {
+    background-color: #f6f6f6;
+    font-family: "Poppins", sans-serif;
+}
+
 .poppins-semibold {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
